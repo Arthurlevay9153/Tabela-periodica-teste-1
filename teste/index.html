@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<script src="script.js"></script>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela Periódica v2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tabela Periódica</h1>
+    <input type="text" id="busca" placeholder="Buscar elemento...">
+  </header>
+
+  <main>
+    <div id="tabela"></div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="fechar">✖</button>
+      <h2 id="nome"></h2>
+      <p><strong>Símbolo:</strong> <span id="simbolo"></span></p>
+      <p><strong>Número Atômico:</strong> <span id="numero"></span></p>
+      <p><strong>Massa:</strong> <span id="massa"></span></p>
+    </div>
+  </div>
+
+</body>
+
+</html>
